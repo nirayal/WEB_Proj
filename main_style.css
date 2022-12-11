@@ -1,6 +1,14 @@
+header{
+    background-color: #ffefcd;
+}
+
 img {
     width: 75%;
-  }
+}
+
+body {
+    background-color: #A58E74;
+}
 
 .container {
     align-items:center;
@@ -14,24 +22,8 @@ img {
     margin-right: 0 !important;
 }
 
-body {
-    /*background-image: url(Pics/back-ground.jpg)*/
-    background-color: #A58E74;
-}
-
-#container-footer{
-    margin: auto;
-    
-}
 .text-bg-light{
     background-color: #f4f4f4;
-}
-
-#contact-box-footer{
-    float: left;
-}
-#logo{
-    width: 75%;
 }
 
 .navbar{
@@ -39,12 +31,21 @@ body {
     bottom: auto;
 }
 
-header{
-    background-color: #ffefcd;
-}
 .btn-primary{
     background-color: #e09132 !important;
     border: #e09132 !important;
+}
+
+#container-footer{
+    margin: auto;
+}
+
+#contact-box-footer{
+    float: left;
+}
+
+#logo{
+    width: 75%;
 }
 
 @media screen and (max-width: 576px) {

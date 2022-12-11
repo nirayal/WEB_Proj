@@ -29,6 +29,7 @@ body {
 .navbar{
     font-size: larger;
     bottom: auto;
+    justify-content: space-around;
 }
 
 .btn-primary{

@@ -1,0 +1,57 @@
+#welcome_pic {                 /* no helpful*/
+    text-align: center;
+    /* color: black; */
+    /* font-family: 'David'; */
+    float: left;
+    width: 50%;
+    margin: auto;
+    /* background-image: url("../HW2/Pics/background_4.jpg"); */
+    box-sizing: border-box;
+    border: solid black;
+    position: relative;
+}
+
+#welcome_text {                 /* no helpful*/
+    float: left;
+    width: 50%;
+    /* background-color: pink; */
+    /* padding: 15px; */
+    /* position: relative; */
+    /* top: 16px; */
+    box-sizing: border-box;
+    border: solid black;
+}
+
+.clear{clear:both}              /* no helpful*/
+
+img {
+    width: 75%;
+  }
+
+.container {
+    align-items:center;
+}
+/* .col-sm-5{
+    border: solid black;
+}
+.col-sm-1{
+    border: solid black;
+}
+.row {
+    
+} */
+body {background-image: url(Pics/back-ground.jpg)}
+
+#header-top-margin{
+    margin-top: 10px;
+    background-color: azure;
+}
+
+#container-footer{
+    margin: auto;
+    
+}
+
+#contact-box-footer{
+    float: left;
+}

@@ -1,29 +1,3 @@
-#welcome_pic {                 /* no helpful*/
-    text-align: center;
-    /* color: black; */
-    /* font-family: 'David'; */
-    float: left;
-    width: 50%;
-    margin: auto;
-    /* background-image: url("../HW2/Pics/background_4.jpg"); */
-    box-sizing: border-box;
-    border: solid black;
-    position: relative;
-}
-
-#welcome_text {                 /* no helpful*/
-    float: left;
-    width: 50%;
-    /* background-color: pink; */
-    /* padding: 15px; */
-    /* position: relative; */
-    /* top: 16px; */
-    box-sizing: border-box;
-    border: solid black;
-}
-
-.clear{clear:both}              /* no helpful*/
-
 img {
     width: 75%;
   }
@@ -31,27 +5,52 @@ img {
 .container {
     align-items:center;
 }
-/* .col-sm-5{
-    border: solid black;
-}
-.col-sm-1{
-    border: solid black;
-}
-.row {
-    
-} */
-body {background-image: url(Pics/back-ground.jpg)}
 
-#header-top-margin{
-    margin-top: 10px;
-    background-color: azure;
+.row {
+    padding: 15px;
+}
+
+body {
+    /*background-image: url(Pics/back-ground.jpg)*/
+    background-color: #A58E74;
 }
 
 #container-footer{
     margin: auto;
     
 }
+.text-bg-light{
+    background-color: #f4f4f4;
+}
 
 #contact-box-footer{
     float: left;
+}
+#logo{
+    width: 75%;
+}
+
+.navbar{
+    font-size: larger;
+    bottom: auto;
+}
+
+header{
+    background-color: #ffefcd;
+}
+.btn-primary{
+    background-color: #e09132 !important;
+    border: #e09132 !important;
+}
+
+@media screen and (max-width: 576px) {
+    .spanToRemoveSmall{display: none !important;}
+  }
+
+@media screen and (min-width: 577px) {
+    .spanToRemoveBig{display: none !important;}
+  }
+
+@media screen and (max-width: 850px) {
+    img{height: 100%; width: 100%;}
 }

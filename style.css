@@ -58,5 +58,5 @@ body {
   }
 
 @media screen and (max-width: 850px) {
-    img{height: 100%; width: 100%;}
+    .image{height: 100%; width: 100%;}
 }

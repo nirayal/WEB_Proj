@@ -37,6 +37,10 @@ body {
     border: #e09132 !important;
 }
 
+.suggestion{
+    text-align: center;
+}
+
 #container-footer{
     margin: auto;
 }

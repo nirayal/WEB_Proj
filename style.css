@@ -64,3 +64,41 @@ body {
 @media screen and (max-width: 850px) {
     .image{height: 100%; width: 100%;}
 }
+
+/* lior changes healfy food */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    background-color: rgb(233, 233, 233);
+    
+}
+  
+.product-card {
+    padding:0.5%;
+    flex-grow: 2;
+    flex-basis: 5%;
+    display: flex; 
+}
+
+.product-info {
+      margin-top: 20px;
+}
+
+.product-image img {
+    /* max-width: 100%; */
+    width: 200px;
+    height: 150px;
+  }
+
+.heading{
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+.end-page{
+    margin-bottom: 150px;
+    padding-top:20px ;
+    text-align: center;
+}

@@ -89,6 +89,10 @@ body {
     padding-top: 10%;
     text-align: center;
 }
+.healthfy-food-stamp{
+    width: 10%;
+}
+
 .product-card{
     border: solid #e09132 1px;
     border-radius: 10px;

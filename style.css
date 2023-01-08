@@ -120,3 +120,9 @@ body {
     max-width: 400px;
     height: auto;
   }
+
+/*Big smartphones [426px -> 600px]*/
+  @media only screen and (max-width: 600px){
+	.row{flex-direction: column;}
+    .product-card{margin-top: 10px;}
+}

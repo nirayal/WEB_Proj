@@ -1,9 +1,9 @@
 header{
     background-color: #ffefcd;
 }
-
+/*change image classes*/
 img {
-    width: 75%;
+    width: 100%;
 }
 
 body {
@@ -66,26 +66,24 @@ body {
 }
 
 /* lior changes healfy food */
-
+.breadcramps{
+    margin-right: 15%;
+    margin-left: 15%;
+    font-style:italic;
+}
 
 .imagebanner{
-    /* margin-left: 15%;
-    margin-right: 15%; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #A58E74; */
 }
 
-.welcome{
-    display: flex;
-    /* justify-content: right; */
-    margin-left: 15%;
-    margin-right: 15%;
+.welcome-aria{
+    background-color: #F8F9FA;
+    margin-left: 5%;
 }
-.welcomeimage{
-    justify-items: center;
-    align-items: center;   
+.img-product{
+    border-radius: 10px;
 }
 .welcometext{
     width: 50%;
@@ -94,43 +92,48 @@ body {
     padding-top: 10%;
     text-align: center;
 }
-.seperator{
-    margin-left: 15%;
-    margin-right: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #c4c4c4;
-    margin-top: 20px;
+.healthfy-food-stamp{
+    width: 10%;
 }
 
-
-.products {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10px;
-    background-color: rgb(233, 233, 233);
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 20px;
+.product-card{
+    border: solid #e09132 1px;
+    border-radius: 10px;
     
-}
-  
-.product-card {
-    padding:0.5%;
-    flex-grow: 2;
-    flex-basis: 5%;
-   
 }
 
 .product-info {
       margin-top: 20px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
       text-align: center;
+}
+.product-info-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-info{
+    margin: 5px ;
+    border-color: #e09132;
+    background-color: #e09132;
+}
+.btn{
+    border-color: #2D2824 !important;
+    background-color: #2D2824 !important;
 }
 
 .product-image img {
     max-width: 400px;
     height: auto;
-    
   }
 
+/*Big smartphones [426px -> 600px]*/
+  @media only screen and (max-width: 576px){
+	.row{flex-direction: column-reverse !important;}
+    .product-row{display: flex;width: 45%;}
+    .product-card{margin-top: 10px;}
+    .banner{display: none !important;}
+    .product-info{padding-left: 30px;padding-right: 30px;}
+    .breadcramps{display: none;}

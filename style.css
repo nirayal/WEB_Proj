@@ -37,7 +37,7 @@ body {
     border: #e09132 !important;
 }
 
-.suggestion, .recipes, .homepageH, .workshopH{
+.suggestion{
     text-align: center;
 }
 
@@ -72,8 +72,15 @@ body {
     font-style:italic;
 }
 
+.imagebanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .welcome-aria{
-    background-color: #F8F9FA;
+    background-color: #E3C3C6;
+    color: #f4f4f4;
     margin-left: 5%;
 }
 .img-product{
@@ -90,10 +97,17 @@ body {
     width: 10%;
 }
 
+.text-in-welcome{
+    margin-left: 15%;
+    margin-top: 35px;
+    font-style: white;
+    background-color: #E3C3C6;
+}
+
 .product-card{
     border: solid #e09132 1px;
     border-radius: 10px;
-    
+   
 }
 
 .product-info {
@@ -123,13 +137,15 @@ body {
     height: auto;
   }
 
-/* Big smartphones [426px -> 600px]
+/*Big smartphones [426px -> 600px]*/
   @media only screen and (max-width: 576px){
-	.row{flex-direction: column-reverse !important;}
-    .product-row{display: flex;width: 45%;}
-    .product-card{margin-top: 10px;}
+.row{flex-direction: column-reverse !important;}
+    .product-row{width: 100%;}
+    .product-card{margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    }
     .banner{display: none !important;}
     .product-info{padding-left: 30px;padding-right: 30px;}
     .breadcramps{display: none;}
-  } 
-  */
+}

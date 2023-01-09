@@ -1,9 +1,9 @@
 header{
     background-color: #ffefcd;
 }
-
+/*change image classes*/
 img {
-    width: 75%;
+    width: 100%;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     border: #e09132 !important;
 }
 
-.suggestion{
+.suggestion, .recipes{
     text-align: center;
 }
 
@@ -64,3 +64,77 @@ body {
 @media screen and (max-width: 850px) {
     .image{height: 100%; width: 100%;}
 }
+
+/* lior changes healfy food */
+.breadcramps{
+    margin-right: 15%;
+    margin-left: 15%;
+    font-style:italic;
+}
+
+.imagebanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-aria{
+    background-color: #F8F9FA;
+    margin-left: 5%;
+}
+.img-product{
+    border-radius: 10px;
+}
+.welcometext{
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10%;
+    text-align: center;
+}
+.healthfy-food-stamp{
+    width: 10%;
+}
+
+.product-card{
+    border: solid #e09132 1px;
+    border-radius: 10px;
+    
+}
+
+.product-info {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+}
+.product-info-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-info{
+    margin: 5px ;
+    border-color: #e09132;
+    background-color: #e09132;
+}
+.btn{
+    border-color: #2D2824 !important;
+    background-color: #2D2824 !important;
+}
+
+.product-image img {
+    max-width: 400px;
+    height: auto;
+  }
+
+/*Big smartphones [426px -> 600px]*/
+  @media only screen and (max-width: 576px){
+	.row{flex-direction: column-reverse !important;}
+    .product-row{display: flex;width: 45%;}
+    .product-card{margin-top: 10px;}
+    .banner{display: none !important;}
+    .product-info{padding-left: 30px;padding-right: 30px;}
+    .breadcramps{display: none;}
+  }

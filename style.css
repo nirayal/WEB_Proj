@@ -68,41 +68,31 @@ body {
 /* lior changes healfy food */
 .breadcramps{
     font-style:italic;
-}
-
-.imagebanner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: black !important;
 }
 
 .welcome-aria{
-    background-color: #E3C3C6;
-    color: #f4f4f4;
+    background-color: #f4f4f4;
+    color: #000000;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 15%;
 }
-.img-product{
-    border-radius: 10px;
-}
-.welcometext{
-    width: 50%;
-    justify-items: center;
-    align-items: center;
-    padding-top: 10%;
-    text-align: center;
-}
-.healthfy-food-stamp{
-    width: 10%;
-}
-
 .text-in-welcome{
     margin-left: 15%;
     margin-top: 35px;
     padding-right: 15% !important;
-    font-style: white;
-    background-color: #E3C3C6;
+    background-color: #f4f4f4;
 }
+.healthfy-food-stamp{
+    width: 200px;
+}
+
+
+.product-row{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
 
 .product-card{
     border: solid #e09132 1px;
@@ -132,20 +122,27 @@ body {
     background-color: #2D2824 !important;
 }
 
+/*all images in product-row has class img-product*/
 .product-image img {
     max-width: 400px;
     height: auto;
+    border-radius: 10px;
   }
 
 /*Big smartphones [426px -> 600px]*/
-  @media only screen and (max-width: 576px){
-.row{flex-direction: column-reverse !important;}
+  @media only screen and (max-width: 600px){
+.row{flex-direction: column !important;}
     .product-row{width: 100%;}
-    .product-card{margin-top: 10px;
+    .product-card{
+        margin-top: 10px;
     align-items: center;
     justify-content: center;
+}
+    .banner{
+        display: none !important;
     }
-    .banner{display: none !important;}
-    .product-info{padding-left: 30px;padding-right: 30px;}
+    .product-info{padding-left: 
+        30px;padding-right: 30px;
+    }
     .breadcramps{display: none;}
 }

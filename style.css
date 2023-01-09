@@ -67,8 +67,6 @@ body {
 
 /* lior changes healfy food */
 .breadcramps{
-    margin-right: 15%;
-    margin-left: 15%;
     font-style:italic;
 }
 
@@ -82,6 +80,7 @@ body {
     background-color: #E3C3C6;
     color: #f4f4f4;
     margin-left: 5%;
+    margin-right: 5%;
 }
 .img-product{
     border-radius: 10px;
@@ -100,6 +99,7 @@ body {
 .text-in-welcome{
     margin-left: 15%;
     margin-top: 35px;
+    padding-right: 15% !important;
     font-style: white;
     background-color: #E3C3C6;
 }

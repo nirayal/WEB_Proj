@@ -37,7 +37,7 @@ body {
     border: #e09132 !important;
 }
 
-.suggestion, .recipes{
+.suggestion, .recipes, .homepageH, .workshopH{
     text-align: center;
 }
 
@@ -70,12 +70,6 @@ body {
     margin-right: 15%;
     margin-left: 15%;
     font-style:italic;
-}
-
-.imagebanner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .welcome-aria{
@@ -129,7 +123,7 @@ body {
     height: auto;
   }
 
-/*Big smartphones [426px -> 600px]*/
+/* Big smartphones [426px -> 600px]
   @media only screen and (max-width: 576px){
 	.row{flex-direction: column-reverse !important;}
     .product-row{display: flex;width: 45%;}
@@ -137,3 +131,5 @@ body {
     .banner{display: none !important;}
     .product-info{padding-left: 30px;padding-right: 30px;}
     .breadcramps{display: none;}
+  } 
+  */

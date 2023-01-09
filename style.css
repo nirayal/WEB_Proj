@@ -37,7 +37,7 @@ body {
     border: #e09132 !important;
 }
 
-.suggestion, .recipes{
+.suggestion, .recipes, .homepageH{
     text-align: center;
 }
 
@@ -70,12 +70,6 @@ body {
     margin-right: 15%;
     margin-left: 15%;
     font-style:italic;
-}
-
-.imagebanner{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .welcome-aria{

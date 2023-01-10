@@ -65,11 +65,8 @@ body {
     .image{height: 100%; width: 100%;}
 }
 
-/* lior changes healfy food */
-.breadcramps{
-    font-style:italic;
-    color: black !important;
-}
+/****** lior changes healfy food *******/
+
 
 .welcome-aria{
     background-color: #f4f4f4;
@@ -80,7 +77,7 @@ body {
 .text-in-welcome{
     margin-left: 15%;
     margin-top: 35px;
-    padding-right: 15% !important;
+    margin-right: 15% !important;
     background-color: #f4f4f4;
 }
 .healthfy-food-stamp{
@@ -88,61 +85,66 @@ body {
 }
 
 
-.product-row{
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-}
-
-
-.product-card{
-    border: solid #e09132 1px;
-    border-radius: 10px;
-   
-}
-
-.product-info {
-      margin-top: 20px;
-      margin-bottom: 10px;
-      padding-bottom: 10px;
-      text-align: center;
-}
-.product-info-btn{
+/* liors css - healfy-food page */
+.flexbox-continer{
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    background-color: #f4f4f4;
+
 }
 
-.btn-outline-info{
-    margin: 5px ;
-    border-color: #e09132;
-    background-color: #e09132;
-}
-.btn{
-    border-color: #2D2824 !important;
-    background-color: #2D2824 !important;
+.flexbox-item{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5%;
+    /* background-color: aqua; */
 }
 
-/*all images in product-row has class img-product*/
-.product-image img {
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
+.flexbox-item1{
+    min-height: 450px;
+
+}
+
+
+.product-image{
+    width: 294px ;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+.product-info{
+    text-align: center;
+    align-items: center;
+}
+
+.more-info-btm{
+    background-color: #474747;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 5px;
+    cursor: pointer;
+    border-radius: 8px;
   }
 
-/*Big smartphones [426px -> 600px]*/
-  @media only screen and (max-width: 600px){
-.row{flex-direction: column !important;}
-    .product-row{width: 100%;}
-    .product-card{
-        margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-}
-    .banner{
-        display: none !important;
+@media (max-width: 800px) {
+    .flexbox-continer{
+      flex-direction: column;
+      margin: 0;
+      align-items: center;
+      min-width: none;
+      }
+    .product-image{
+        max-width: 100%;
     }
-    .product-info{padding-left: 
-        30px;padding-right: 30px;
-    }
-    .breadcramps{display: none;}
-}
+    .welcome-aria{flex-direction: column !important;}
+    .banner{display: none !important;}
+    .text-in-welcome{padding: 0px !important;margin: 0px !important;text-align: center;}
+    .healthfy-food-stamp{max-width: auto;justify-content: center;align-items: center;}
+  }

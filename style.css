@@ -65,7 +65,19 @@ body {
     .image{height: 100%; width: 100%;}
 }
 
+
+.recipes_table{
+    text-align: center;
+    margin: auto;
+}
+.recipes_table_cell{
+    width: 70%;
+}
+
+
+
 /* lior changes healfy food */
+
 .breadcramps{
     margin-right: 15%;
     margin-left: 15%;

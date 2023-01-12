@@ -206,7 +206,7 @@
           <div class="col-sm-5 text-center my-auto" >
             <span class="spanToRemoveSmall">
               <p>
-                <h3 class="recipes"">Help Us</h3>
+                <h3 class="recipes"">Help Us Expand</h3>
                 Nana's allways looking to expand her horizons and would<br>
                 love to share your recpies with every one to enjoy them!.<br>
                 Tell us your Special Recpie
@@ -215,6 +215,30 @@
             <span class="spanToRemoveBig">
                 <P>Tell us your Special Recpie</P>
             </span>
+            <form>
+              <fieldset>
+                  <legend><b>Fill up the following recpie information</b></legend>
+                  <br>
+                  <h4>Personal information:</h4>
+                  <table>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">Full name:</td><td class="recipes_table_cell"><input type = "text" name = "name" maxlength="25"></td></tr>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">Email address:</td><td class="recipes_table_cell"><input type = "email" name = "email"></td></tr>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">Phone number:</td><td class="recipes_table_cell"><input type = "text" name = "phone_num" maxlength="10"></td></tr>
+                  </table>
+                  <br>
+                  <h4>Recipe information:</h4>
+                  <table>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">Recipe Nname:</td><td class="recipes_table_cell"><input type = "text" name = "recipe_name" maxlength="50" placeholder="max 50 chars"></td></tr>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">Ingredients:</td><td class="recipes_table_cell"><textarea name = "ingredients" cols = "30" rows = "10" maxlength="100" placeholder="max 100 chars"></textarea></td></tr>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">Preparation Instractions:</td class="recipes_table_cell"><td><textarea name = "preparation" cols = "30" rows = "10" maxlength="250" placeholder="max 250 chars"></textarea></td></tr>
+                  </table>
+                  <br>
+                  <table>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">reset form</td><td class="recipes_table_cell"><input class="btn btn-primary" type="reset" value="reset"></td></tr>
+                      <tr class="recipes_table_row"><td class="recipes_table_cell">submit form</td><td class="recipes_table_cell"><input class="btn btn-primary" type="submit" value="submit this recipe"></td></tr>
+                  </table>
+              </fieldset>
+            </form>
           </div>
           <div class = "col-sm-1"></div>  
         </div>

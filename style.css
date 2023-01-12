@@ -108,7 +108,7 @@ body {
     width: 300px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 5%;
+    border-radius: 5% 5% 0 0;
     /* background-color: aqua; */
 }
 
@@ -119,29 +119,35 @@ body {
 
 
 .product-image{
-    width: 294px ;
+    width: 296px ;
+    height: 300px;
     object-fit: cover;
     border-radius: 5% 5% 0 0;
 }
 .product-info{
     text-align: center;
     align-items: center;
+    margin-top: 15px;
 }
 
 .more-info-btm{
     background-color: #474747;
     border: none;
     color: rgb(255, 255, 255);
-    padding: 0px 20px 0px 20px;
+    /* padding: 0px 20px 0px 20px; */
     text-align: center;
-    vertical-align: middle;
+    
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 0px 0px 5px;
     cursor: pointer;
-    border-radius: 8px;
+    
+    width: 296px;
   }
+
+@media(max-width: 1267px){
+
+}
 
 @media (max-width: 800px) {
     .flexbox-continer{
@@ -156,5 +162,5 @@ body {
     .welcome-aria{flex-direction: column !important;}
     .banner{display: none !important;}
     .text-in-welcome{padding: 0px !important;margin: 0px !important;text-align: center;}
-    .healthfy-food-stamp{max-width: auto;justify-content: center;align-items: center;}
+    .healthfy-food-stamp{max-width:100px;justify-content: center;align-items: center;}
   }

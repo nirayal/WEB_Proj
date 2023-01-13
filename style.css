@@ -52,6 +52,7 @@ body {
 #logo{
     width: 75%;
 }
+/* from in footer */
 
 @media screen and (max-width: 576px) {
     .spanToRemoveSmall{display: none !important;}
@@ -102,6 +103,7 @@ body {
 /* liors css - healfy-food page */
 .flexbox-continer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     background-color: #f4f4f4;
@@ -111,16 +113,14 @@ body {
 .flexbox-item{
     width: 300px;
     margin: 10px;
-    border: 2px solid black;
-    border-radius: 5% 5% 0 0;
-    /* background-color: aqua; */
+    border: 2px solid white;
+    border-radius: 5% 5% 5% 5%;
 }
 
 .flexbox-item1{
     min-height: 450px;
 
 }
-
 
 .product-image{
     width: 296px ;
@@ -135,21 +135,19 @@ body {
 }
 
 .more-info-btm{
-    background-color: #474747;
-    border: none;
-    color: rgb(255, 255, 255);
-    /* padding: 0px 20px 0px 20px; */
+    border: 2px solid ;
+    color: #75c965;
     text-align: center;
-    
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    
     width: 296px;
+    border-radius: 0px 0px 13px 13px;
   }
 
-@media(max-width: 1267px){
+  /* ipads */
+@media(max-width: 1320px){
 
 }
 

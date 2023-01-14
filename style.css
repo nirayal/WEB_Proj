@@ -166,3 +166,12 @@ body {
     .text-in-welcome{padding: 0px !important;margin: 0px !important;text-align: center;}
     .healthfy-food-stamp{max-width:100px;justify-content: center;align-items: center;}
   }
+
+input[type = text], input[type = email], textarea
+{
+  width: 100%;
+
+  display: inline-block;
+  border: none;
+  background: #cfcfcf;
+}

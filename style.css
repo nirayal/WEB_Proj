@@ -92,7 +92,6 @@ body {
 .text-in-welcome{
     margin-left: 15%;
     margin-top: 35px;
-    margin-right: 15% !important;
     background-color: #f4f4f4;
 }
 .healthfy-food-stamp{
@@ -144,6 +143,35 @@ body {
     cursor: pointer;
     width: 296px;
     border-radius: 0px 0px 13px 13px;
+  }
+  .namu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .namu-btn{
+    width: 100%;
+    border: 2px solid ;
+    color: #75c965;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 13px;
+
+  }
+
+  #panel{
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #c3c3c3;
+    width: 100%;
+    border-radius: 13px;
+
+  }
+  
+  #panel {
+
+    display: none;
+
   }
 
   /* ipads */

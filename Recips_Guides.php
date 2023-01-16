@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
                     <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Home_Page.html">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="Recips_Guides.html">Recipes & Guides</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="Recips_Guides.php">Recipes & Guides</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Healthy_Food.htm">Healthy Food</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Workshops.htm">Workshops</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Suggestion.html">Nana's suggestion</a> </li>
@@ -154,6 +154,57 @@
       </div>
 
       <!-- this is the ~Deserts~ section -->
+
+      <!-- php section -->
+      <?php
+      $error = null;
+      if ($_GET)
+      {
+          if ( ! $_GET['name']) {
+              $error .= "Error:  The full name is required.<br>";    }
+          else {
+              $chars = str_split($_GET['name']);
+              foreach ($chars as $char){
+                  if(! ctype_alpha($char)){
+                      $error .= "Error:  City must contain only letters.<br>";
+                      break;
+                  }
+              }           
+          }    
+          if ( ! $_GET['email']) {
+              $error .= "Error:  The e-mail is required.<br>";    }
+          elseif (! filter_var($_GET['email'],FILTER_VALIDATE_EMAIL))    {
+              $error .= "Error:  Only get valid e-mail.<br>";    }   
+
+          if ( ! $_GET['phone_num']) {
+              $error .= "Error:  The phone number is required.<br>";    }            
+          elseif (! preg_match('/^[0-9]{10}+$/', $_GET['phone_num'])) {
+              $error .= "Error:  Only get digits in phone number.<br>";    }
+              
+          if ( ! $_GET['recipe_name']) {
+              $error .= "Error:  The recipe name is required.<br>";    }
+
+          if ( ! $_GET['ingredients']) {
+              $error .= "Error:  The ingredients are required.<br>";    }
+
+          if ( ! $_GET['preparation']) {
+              $error .= "Error:  The preparation process is required.<br>";    }
+          if(isset($error)){
+                  echo $error;
+          }
+          else{
+              $name = $_GET['name'];
+              $email = $_GET['email'];
+              $phone_num = $_GET['phone_num'];
+              $recipe_name = $_GET['recipe_name'];
+              $ingredients = $_GET['ingredients'];
+              $preparation = $_GET['preparation'];
+
+              echo $name.'<br>'.$email.'<br>'.$phone_num.'<br>'.$recipe_name.'<br>'.$ingredients.'<br>'.$preparation;
+          }
+        }
+        ?>
+
       <div class="container-Desserts-">
         <div class="row">
           <div class = "col-sm-1"></div>  
@@ -244,14 +295,14 @@
         </div>
       </div>
     <!-- footer section -->
-     <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start">
       <div class="container-footer p-4">
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Things from Nana </h5>    
             <ul class="list-unstyled">
               <li> <a href="Home_Page.html" class="text-dark">Home</a> </li>
-              <li> <a href="Recips_Guides.html" class="text-dark">Recepis & Guides</a> </li>
+              <li> <a href="Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
               <li> <a href="Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
               <li> <a href="Workshops.htm" class="text-dark">Workshops</a> </li>
               <li> <a href="Suggestion.html" class="text-dark">Nana's suggestion</a> </li>
@@ -279,25 +330,8 @@
               </li>
             </ul>
           </div>
-          
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Send us your requests</h5>
-            <ul class="list-unstyled mb-0">
-              <div class="contact-box-footer">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Email" aria-label="First name">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Your request" aria-label="Last name">
-                  </div>
-                </div>
-              </div>
-            </ul>
-          </div>  
         </div>
       </div>
-      
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2022 Copyright :
         <a class="text-dark" style="text-decoration: none;">Lior &amp; Nir &amp; Tomer Design</a>

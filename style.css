@@ -52,7 +52,6 @@ body {
 #logo{
     width: 75%;
 }
-/* from in footer */
 
 @media screen and (max-width: 576px) {
     .spanToRemoveSmall{display: none !important;}
@@ -63,9 +62,19 @@ body {
   }
 
 @media screen and (max-width: 850px) {
-    .image{height: 100%; width: 100%;}
+    .image{
+        width: 100%;
+        height: auto;} 
 }
 
+.recipes_helpus_table{
+    width: 100%;
+}
+
+.recipes_helpus_td{
+    text-align: left;
+    width: 50%;
+}
 
 .recipes_table{
     text-align: center;

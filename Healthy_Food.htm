@@ -14,6 +14,9 @@
         $("#flip").click(function(){
           $("#panel").slideDown("slow");
         });
+        $("#flip1").click(function(){
+            $("#panel").slideUp("slow");
+        });
       });
       </script>
       </script>
@@ -35,7 +38,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
                       <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Home_Page.html">Home</a> </li>
-                      <li class="nav-item"> <a class="nav-link" href="Recips_Guides.html">Recipes & Guides</a> </li>
+                      <li class="nav-item"> <a class="nav-link" href="Recips_Guides.php">Recipes & Guides</a> </li>
                       <li class="nav-item"> <a class="nav-link" href="Healthy_Food.htm">Healthy Food</a> </li>
                       <li class="nav-item"> <a class="nav-link" href="Workshops.htm">Workshops</a> </li>
                       <li class="nav-item"> <a class="nav-link" href="Suggestion.html">Nana's suggestion</a> </li>
@@ -69,7 +72,7 @@
               <br>
               <div class="row row-spamp">
                 <div class="col-6">
-                  <img class="healthfy-food-stamp" src="Pics/healthy_food/healthfy-food-stamp.jfif">
+                  <img class="healthfy-food-stamp" src="Pics/healthy_food/healthfy-food-stamp.png">
                 </div>
                 <div class="col-6">
                   <img class="healthfy-food-stamp" src="Pics/healthy_food/fresh&healthy_stamp.png">
@@ -77,14 +80,17 @@
               </div>
               <div class="row">
                 <div class="col-6">
-              <h3>Nana's signture of quality</H3>
+                  <BR></BR>
+              <h3 class="sig-text">Nana's Signture Of Quality: </H3>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                  <img class="healthfy-food-stamp" src="Pics/healthy_food/sig copy.png">
+                </div>
               </div>
             </div>
-              <div class="col namu">
+              <div class="col menu">
                 <img src="Pics/healthy_food/image1copy.png" alt="">
-                <button class="namu-btn" id="flip">see whats in this plate</button>
+                <button class="menu-btn" id="flip">See what's in this plate</button>
                 <div id="panel">
                     <table style="width:100%">
                     <tr>
@@ -93,25 +99,27 @@
                       <th>Carbohydrate</th>
                     </tr>
                     <tr>
-                      <td>boiled broccoli</td>
-                      <td>boiled carrots</td>
-                      <td>vegetable</td>
-                      <td>fruits</td>
+                      <td>Boiled broccoli</td>
+                      <td>Baked salmon</td>
+                      <td>Quinoa</td>
+                      <!-- <td>fruits</td> -->
                     </tr>
                     <tr>
-                      <td>baked salmon</td>
-                      <td>boild egg</td>
-                      <td>chicken breast</td>
-                      <td>grild beef</td>
+                      <td>Boiled carrots</td>
+                      <td>Boild egg</td>
+                      <td>Pasta</td>
+                      <!-- <td>grild beef</td> -->
                     </tr>
                     <tr>
-                      <td>quinoa</td>
-                      <td>pasta</td>
-                      <td>bread</td>
-                      <td>rice</td>
+                      <td>Vegetable</td>                
+                      <td>Chicken breast</td>
+                      <td>Bread</td>
+                      <!-- <td>rice</td> -->
                     </tr>
                   </table>
                 </div>
+                <button class="menu-close-btn" id="flip1" >Close Plate</button>
+
               </div>
           </div>
         </div>
@@ -204,7 +212,7 @@
             <h5 class="text-uppercase">Things from Nana </h5>    
             <ul class="list-unstyled">
               <li> <a href="Home_Page.html" class="text-dark">Home</a> </li>
-              <li> <a href="Recips_Guides.html" class="text-dark">Recepis & Guides</a> </li>
+              <li> <a href="Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
               <li> <a href="Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
               <li> <a href="Workshops.htm" class="text-dark">Workshops</a> </li>
               <li> <a href="Suggestion.html" class="text-dark">Nana's suggestion</a> </li>
@@ -232,29 +240,6 @@
               </li>
             </ul>
           </div>
-          
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Send us your requests</h5>
-            <ul class="list-unstyled mb-0">
-              <div class="contact-box-footer">
-                <form action="" method="get">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Email" aria-label="First name">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Your request" aria-label="Last name">
-                  </div>
-                  <div class="row">
-                    <div class="col f">
-                      <input type="submit" class="form-control" value="submit">
-                    </div>
-                 </div>
-                </div>
-              </form>
-              </div>
-            </ul>
-          </div>  
         </div>
       </div>
       

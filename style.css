@@ -52,7 +52,6 @@ body {
 #logo{
     width: 75%;
 }
-/* from in footer */
 
 @media screen and (max-width: 576px) {
     .spanToRemoveSmall{display: none !important;}
@@ -63,9 +62,19 @@ body {
   }
 
 @media screen and (max-width: 850px) {
-    .image{height: 100%; width: 100%;}
+    .image{
+        width: 100%;
+        height: auto;} 
 }
 
+.recipes_helpus_table{
+    width: 100%;
+}
+
+.recipes_helpus_td{
+    text-align: left;
+    width: 50%;
+}
 
 .recipes_table{
     text-align: center;
@@ -96,6 +105,9 @@ body {
 }
 .healthfy-food-stamp{
     width: 200px;
+}
+.sig-text{
+    font-style: italic;
 }
 
 
@@ -142,36 +154,46 @@ body {
     font-size: 16px;
     cursor: pointer;
     width: 296px;
-    border-radius: 0px 0px 13px 13px;
+    /* border-radius: 0px 0px 13px 13px; */
   }
-  .namu{
+  .menu{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .namu-btn{
+  .menu-btn{
     width: 100%;
     border: 2px solid ;
     color: #75c965;
     text-align: center;
     font-size: 25px;
     border-radius: 13px;
+    border-radius: 13px 13px 0 0;
 
+  }
+  .menu-close-btn{
+    border: 2px solid ;
+    color: #808080;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 296px;
+    border-radius: 0px 0px 13px 13px;
+    width: 100%;
   }
 
   #panel{
     padding: 5px;
     text-align: center;
-    border: solid 1px #c3c3c3;
+    border: solid 2px #c3c3c3;
     width: 100%;
-    border-radius: 13px;
-
+    /* border-radius: 0 0 13px 13px; */
   }
   
   #panel {
-
     display: none;
-
   }
 
   /* ipads */
@@ -194,3 +216,12 @@ body {
     .text-in-welcome{padding: 0px !important;margin: 0px !important;text-align: center;}
     .healthfy-food-stamp{max-width:100px;justify-content: center;align-items: center;}
   }
+
+input[type = text], input[type = email], textarea
+{
+  width: 100%;
+
+  display: inline-block;
+  border: none;
+  background: #cfcfcf;
+}

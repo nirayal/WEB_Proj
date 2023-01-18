@@ -14,6 +14,9 @@
         $("#flip").click(function(){
           $("#panel").slideDown("slow");
         });
+        $("#flip1").click(function(){
+            $("#panel").slideUp("slow");
+        });
       });
       </script>
       </script>
@@ -69,7 +72,7 @@
               <br>
               <div class="row row-spamp">
                 <div class="col-6">
-                  <img class="healthfy-food-stamp" src="Pics/healthy_food/healthfy-food-stamp.jfif">
+                  <img class="healthfy-food-stamp" src="Pics/healthy_food/healthfy-food-stamp.png">
                 </div>
                 <div class="col-6">
                   <img class="healthfy-food-stamp" src="Pics/healthy_food/fresh&healthy_stamp.png">
@@ -77,14 +80,17 @@
               </div>
               <div class="row">
                 <div class="col-6">
-              <h3>Nana's signture of quality</H3>
+                  <BR></BR>
+              <h3 class="sig-text">Nana's Signture Of Quality: </H3>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                  <img class="healthfy-food-stamp" src="Pics/healthy_food/sig copy.png">
+                </div>
               </div>
             </div>
-              <div class="col namu">
+              <div class="col menu">
                 <img src="Pics/healthy_food/image1copy.png" alt="">
-                <button class="namu-btn" id="flip">see whats in this plate</button>
+                <button class="menu-btn" id="flip">See what's in this plate</button>
                 <div id="panel">
                     <table style="width:100%">
                     <tr>
@@ -93,25 +99,27 @@
                       <th>Carbohydrate</th>
                     </tr>
                     <tr>
-                      <td>boiled broccoli</td>
-                      <td>boiled carrots</td>
-                      <td>vegetable</td>
-                      <td>fruits</td>
+                      <td>Boiled broccoli</td>
+                      <td>Baked salmon</td>
+                      <td>Quinoa</td>
+                      <!-- <td>fruits</td> -->
                     </tr>
                     <tr>
-                      <td>baked salmon</td>
-                      <td>boild egg</td>
-                      <td>chicken breast</td>
-                      <td>grild beef</td>
+                      <td>Boiled carrots</td>
+                      <td>Boild egg</td>
+                      <td>Pasta</td>
+                      <!-- <td>grild beef</td> -->
                     </tr>
                     <tr>
-                      <td>quinoa</td>
-                      <td>pasta</td>
-                      <td>bread</td>
-                      <td>rice</td>
+                      <td>Vegetable</td>                
+                      <td>Chicken breast</td>
+                      <td>Bread</td>
+                      <!-- <td>rice</td> -->
                     </tr>
                   </table>
                 </div>
+                <button class="menu-close-btn" id="flip1" >Close Plate</button>
+
               </div>
           </div>
         </div>

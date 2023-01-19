@@ -154,9 +154,125 @@
       </div>
 
       <!-- this is the ~Deserts~ section -->
+      <div class="container-Desserts-">
+        <div class="row">
+          <div class = "col-sm-1"></div>  
+          <span class="spanToRemoveBig">
+            <h3 class="recipes">Desserts</h3>
+          </span>
+          <div class="col-sm-5 text-center">
+            <img class="image" src="Pics/Recipes/desserts.jpg" class="rounded" alt="Desserts"><br>
+          </div>
+          <div class="col-sm-5 text-center my-auto" >
+            <span class="spanToRemoveSmall">
+              <h3 class="recipes">Desserts</h3>
+              <p>
+                Throughout the years Nana met with many conditors.<br>
+                She loved their passion for Sweet, and fell in love with it as well.<br>
+                Nana's picked the best of them to you, all there's left is to check them out!.
+              </p>
+              <table class="recipes_table">
+                <tr><td class="recipes_table_cell"><b>Flourless Chocolate Coconut Cake</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a39498963/flourless-chocolate-coconut-cake-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
+                <tr><td class="recipes_table_cell"><b>Confetti Squares</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a25440941/confetti-squares-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
+                <tr><td class="recipes_table_cell"><b>Oreo Truffles</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/recipes/a48823/oreo-truffles-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
+              </table>
+            </span>
+            <span class="spanToRemoveBig">
+              <p>
+                Nana's picked the best Desserts for you!<br>
+                Come check them out!.
+              </p>
+              <table class = "recipes_table">
+                <tr><td class="recipes_table_cell"><b>Flourless Chocolate Coconut Cake</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a39498963/flourless-chocolate-coconut-cake-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
+                <tr><td class="recipes_table_cell"><b>Confetti Squares</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a25440941/confetti-squares-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
+                <tr><td class="recipes_table_cell"><b>Oreo Truffles</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/recipes/a48823/oreo-truffles-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
+              </table>
+            </span>
+          </div>
+          <div class = "col-sm-1"></div>  
+        </div>
+      </div>
 
-      <!-- php section -->
-      <?php
+      <!-- this is the ~Recipes Form~ section -->
+      <div class="container-form-">
+        <div class="row text-bg-light">
+          <div class = "col-sm-1"></div>  
+          <div class="col-sm-5 text-center">
+            <span class="spanToRemoveSmall"> 
+              <img class="image" src="Pics/Recipes/recpie_book3.jpg" class="rounded" alt="Salads"><br>            
+            </span>
+          </div>
+          <div class="col-sm-5 text-center my-auto" >
+            <span class="spanToRemoveSmall"> 
+              <p>
+                <h3 class="recipes">Help Us Expand</h3>
+                Nana's allways looking to expand her horizons and would<br>
+                love to share your recpies with every one to enjoy them!<br>
+                Tell us your Special Recpie
+              </p>
+              <form>
+                <fieldset>
+                    <legend><b>Fill up the following recpie information</b></legend>
+                    <br>
+                    <table class = "recipes_helpus_table">
+                      <tr><h4>Personal information:</h4></tr>
+                      <tr><td class="recipes_helpus_td">Full name:</td><td class="recipes_helpus_td"><input type = "text" name = "name" maxlength="25"></td></tr>
+                      <tr><td class="recipes_helpus_td">Email address:</td><td class="recipes_helpus_td"><input type = "email" name = "email"></td></tr>
+                      <tr><td class="recipes_helpus_td">Phone number:</td><td class="recipes_helpus_td"><input type = "text" name = "phone_num" maxlength="10"></td></tr>
+                    </table>
+
+                    <table class = "recipes_helpus_table">
+                      <tr><h4>Recipe information:</h4></tr>
+                      <tr><td class="recipes_helpus_td">Recipe Name:</td><td class="recipes_helpus_td"><input type = "text" name = "recipe_name"  maxlength="50" placeholder="max 50 chars"></td></tr>
+                      <tr><td class="recipes_helpus_td">Ingredients:</td><td class="recipes_helpus_td"><textarea name = "ingredients" cols = "30" rows = "10" maxlength="100" placeholder="max 100 chars"></textarea></td></tr>
+                      <tr><td class="recipes_helpus_td">Preparation Instractions:</td class="recipes_helpus_td"><td><textarea name = "preparation" cols = "30" rows = "10" maxlength="250" placeholder="max 250 chars"></textarea></td></tr>
+                    </table>
+                    <br>
+                    <table class = "recipes_helpus_table">
+                      <tr><td class="recipes_helpus_td">reset form</td><td class="recipes_helpus_td"><input class="btn btn-primary" type="reset" value="reset"></td></tr>
+                      <tr><td class="recipes_helpus_td">submit form</td><td class="recipes_helpus_td"><input class="btn btn-primary" type="submit" value="submit this recipe"></td></tr>
+                    </table>
+                </fieldset>
+              </form>
+            </span>
+          </div>
+          <div class="col-sm-10 text-center my-auto" >
+            <span class="spanToRemoveBig">
+              <h3 class="recipes">Help Us Expand</h3>  
+              <P>Tell us your Special Recpie</P>
+              <form>
+                <fieldset>
+                    <legend><b>Fill up the following recpie information</b></legend>
+                    <br>
+                    <table class = "recipes_helpus_table">
+                      <tr><h4>Personal information:</h4></tr>
+                      <tr><td class="recipes_helpus_td">Full name:</td><td class="recipes_helpus_td"><input type = "text" name = "name" maxlength="25"></td></tr>
+                      <tr><td class="recipes_helpus_td">Email address:</td><td class="recipes_helpus_td"><input type = "email" name = "email"></td></tr>
+                      <tr><td class="recipes_helpus_td">Phone number:</td><td class="recipes_helpus_td"><input type = "text" name = "phone_num" maxlength="10"></td></tr>
+                    </table>
+
+                    <table class = "recipes_helpus_table">
+                      <tr><h4>Recipe information:</h4></tr>
+                      <tr><td class="recipes_helpus_td">Recipe Name:</td><td class="recipes_helpus_td"><input type = "text" name = "recipe_name"  maxlength="50" placeholder="max 50 chars"></td></tr>
+                      <tr><td class="recipes_helpus_td">Ingredients:</td><td class="recipes_helpus_td"><textarea name = "ingredients" cols = "30" rows = "10" maxlength="100" placeholder="max 100 chars"></textarea></td></tr>
+                      <tr><td class="recipes_helpus_td">Preparation Instractions:</td class="recipes_helpus_td"><td><textarea name = "preparation" cols = "30" rows = "10" maxlength="250" placeholder="max 250 chars"></textarea></td></tr>
+                    </table>
+                    <br>
+                    <table>
+                        <tr><td class="recipes_helpus_td">reset form</td><td class="recipes_helpus_td"><input class="btn btn-primary" type="reset" value="reset"></td></tr>
+                        <tr><td class="recipes_helpus_td">submit form</td><td class="recipes_helpus_td"><input class="btn btn-primary" type="submit" value="submit this recipe"></td></tr>
+                    </table>
+                </fieldset>
+              </form>
+            </span>
+          </div>
+          <div class = "col-sm-1"></div>  
+        </div>
+      </div>
+    </main>
+    
+     <!-- php section -->
+     <?php
       $error = null;
       if ($_GET)
       {
@@ -201,100 +317,12 @@
               $preparation = $_GET['preparation'];
 
               echo $name.'<br>'.$email.'<br>'.$phone_num.'<br>'.$recipe_name.'<br>'.$ingredients.'<br>'.$preparation;
+              // enter to DB 
           }
         }
-        ?>
-
-      <div class="container-Desserts-">
-        <div class="row">
-          <div class = "col-sm-1"></div>  
-          <span class="spanToRemoveBig">
-            <h3 class="recipes">Desserts</h3>
-          </span>
-          <div class="col-sm-5 text-center">
-            <img class="image" src="Pics/Recipes/desserts.jpg" class="rounded" alt="Desserts"><br>
-          </div>
-          <div class="col-sm-5 text-center my-auto" >
-            <span class="spanToRemoveSmall">
-              <h3 class="recipes"">Desserts</h3>
-              <p>
-                Throughout the years Nana met with many conditors.<br>
-                She loved their passion for Sweet, and fell in love with it as well.<br>
-                Nana's picked the best of them to you, all there's left is to check them out!.
-              </p>
-              <table class="recipes_table">
-                <tr><td class="recipes_table_cell"><b>Flourless Chocolate Coconut Cake</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a39498963/flourless-chocolate-coconut-cake-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
-                <tr><td class="recipes_table_cell"><b>Confetti Squares</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a25440941/confetti-squares-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
-                <tr><td class="recipes_table_cell"><b>Oreo Truffles</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/recipes/a48823/oreo-truffles-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
-              </table>
-            </span>
-            <span class="spanToRemoveBig">
-              <p>
-                Nana's picked the best Desserts for you!<br>
-                Come check them out!.
-              </p>
-              <table class = "recipes_table">
-                <tr><td class="recipes_table_cell"><b>Flourless Chocolate Coconut Cake</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a39498963/flourless-chocolate-coconut-cake-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
-                <tr><td class="recipes_table_cell"><b>Confetti Squares</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/a25440941/confetti-squares-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
-                <tr><td class="recipes_table_cell"><b>Oreo Truffles</b></td><td class="recipes_table_cell"><a href = "https://www.delish.com/cooking/recipe-ideas/recipes/a48823/oreo-truffles-recipe/" target = "_blank" class = "btn btn-primary">Recipe</a></td></tr>
-              </table>
-            </span>
-          </div>
-          <div class = "col-sm-1"></div>  
-        </div>
-      </div>
-
-      <!-- this is the ~Recipes Form~ section -->
-      <div class="container-Salads-">
-        <div class="row text-bg-light">
-          <div class = "col-sm-1"></div>  
-          <span class="spanToRemoveBig">
-            <h3 class="recipes"">Help Us</h3>
-          </span>
-          <div class="col-sm-5 text-center">
-            <img class="image" src="Pics/Recipes/recpie_book3.jpg" class="rounded" alt="Salads"><br>
-          </div>
-          <div class="col-sm-5 text-center my-auto" >
-            <span class="spanToRemoveSmall">
-              <p>
-                <h3 class="recipes"">Help Us Expand</h3>
-                Nana's allways looking to expand her horizons and would<br>
-                love to share your recpies with every one to enjoy them!.<br>
-                Tell us your Special Recpie
-              </p>
-            </span>
-            <span class="spanToRemoveBig">
-                <P>Tell us your Special Recpie</P>
-            </span>
-            <form>
-              <fieldset>
-                  <legend><b>Fill up the following recpie information</b></legend>
-                  <br>
-                  <h4>Personal information:</h4>
-                  <table>
-                      <tr><td class="recipes_table_cell">Full name:</td><td class="recipes_table_cell"><input type = "text" name = "name" maxlength="25"></td></tr>
-                      <tr><td class="recipes_table_cell">Email address:</td><td class="recipes_table_cell"><input type = "email" name = "email"></td></tr>
-                      <tr><td class="recipes_table_cell">Phone number:</td><td class="recipes_table_cell"><input type = "text" name = "phone_num" maxlength="10"></td></tr>
-                  </table>
-                  <br>
-                  <h4>Recipe information:</h4>
-                  <table>
-                      <tr><td class="recipes_table_cell">Recipe Nname:</td><td class="recipes_table_cell"><input type = "text" name = "recipe_name"  maxlength="50" placeholder="max 50 chars"></td></tr>
-                      <tr><td class="recipes_table_cell">Ingredients:</td><td class="recipes_table_cell"><textarea name = "ingredients" cols = "30" rows = "10" maxlength="100" placeholder="max 100 chars"></textarea></td></tr>
-                      <tr><td class="recipes_table_cell">Preparation Instractions:</td class="recipes_table_cell"><td><textarea name = "preparation" cols = "30" rows = "10" maxlength="250" placeholder="max 250 chars"></textarea></td></tr>
-                  </table>
-                  <br>
-                  <table>
-                      <tr><td class="recipes_table_cell">reset form</td><td class="recipes_table_cell"><input class="btn btn-primary" type="reset" value="reset"></td></tr>
-                      <tr><td class="recipes_table_cell">submit form</td><td class="recipes_table_cell"><input class="btn btn-primary" type="submit" value="submit this recipe"></td></tr>
-                  </table>
-              </fieldset>
-            </form>
-          </div>
-          <div class = "col-sm-1"></div>  
-        </div>
-      </div>
+      ?>
     </main>
+
     <!-- footer section -->
     <footer class="bg-light text-center text-lg-start">
       <div class="container-footer p-4">

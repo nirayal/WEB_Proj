@@ -121,7 +121,7 @@
         <div class="row text-bg-light">
           <div class = "col-sm-1"></div>  
           <span class="spanToRemoveBig">
-            <h3 class="recipes"">Salads</h3>
+            <h3 class="recipes">Salads</h3>
           </span>
           <div class="col-sm-5 text-center">
             <img class="image" src="Pics/Recipes/salads.jpg" class="rounded" alt="Salads"><br>
@@ -294,6 +294,7 @@
           <div class = "col-sm-1"></div>  
         </div>
       </div>
+    </main>
     <!-- footer section -->
     <footer class="bg-light text-center text-lg-start">
       <div class="container-footer p-4">

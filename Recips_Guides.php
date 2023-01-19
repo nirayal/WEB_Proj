@@ -269,7 +269,8 @@
           <div class = "col-sm-1"></div>  
         </div>
       </div>
-
+    </main>
+    
      <!-- php section -->
      <?php
       $error = null;
@@ -321,8 +322,6 @@
         }
       ?>
     </main>
-
-
 
     <!-- footer section -->
     <footer class="bg-light text-center text-lg-start">

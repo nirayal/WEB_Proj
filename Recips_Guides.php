@@ -16,7 +16,7 @@
           <div class = "col-sm-1"></div>  
             <div class="col-sm-3 text-center m-auto">
               <!-- logo -->
-              <a href="Home_Page.html" style="text-decoration: none;"><img id='logo' src="Pics/logo2.png" alt="logo"></a>
+              <a href="index.php" style="text-decoration: none;"><img id='logo' src="Pics/logo2.png" alt="logo"></a>
             </div>
             <navbar class="navbar navbar-expand-lg col-sm-8 fix-top">
               <div class="container-fluid">
@@ -25,7 +25,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
-                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="Home_Page.html">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.php">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Recips_Guides.php">Recipes & Guides</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Healthy_Food.htm">Healthy Food</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Workshops.htm">Workshops</a> </li>
@@ -331,7 +331,7 @@
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Things from Nana </h5>    
             <ul class="list-unstyled">
-              <li> <a href="Home_Page.html" class="text-dark">Home</a> </li>
+              <li> <a href="index.php" class="text-dark">Home</a> </li>
               <li> <a href="Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
               <li> <a href="Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
               <li> <a href="Workshops.htm" class="text-dark">Workshops</a> </li>

@@ -110,6 +110,14 @@ body {
     font-style: italic;
 }
 
+.prev, .next{
+    color: #000000 !important;
+    position: absolute;
+    transition: transform 0.25s ease;
+    text-decoration: none;
+    transform: scale(2);
+}
+
 
 /* liors css - healfy-food page */
 .flexbox-continer{

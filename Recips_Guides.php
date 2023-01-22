@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">     
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>   
+        <script> src="project.js"</script>
 		    <link rel="icon" href="Pics/icon.png" type="image/icon_path">
 	</head>
 	<body>
@@ -129,7 +130,7 @@
           <div class="col-sm-5 text-center my-auto" >
             <span class="spanToRemoveSmall">
               <p>
-                <h3 class="recipes"">Salads</h3>
+                <h3 class="recipes">Salads</h3>
                 Nana is one of the world leader Salads Chef's.<br>
                 No matter what ingridians she will find in the fridge.<br>
                 Come explore Nana's special Salads!
@@ -268,11 +269,13 @@
           </div>
           <div class = "col-sm-1"></div>  
         </div>
+        <div id = "databaseEnter" class="row text-bg-light"></div>
       </div>
     </main>
     
      <!-- php section -->
      <?php
+      include("includes/init.php");
       $error = null;
       if ($_GET)
       {
@@ -281,8 +284,8 @@
           else {
               $chars = str_split($_GET['name']);
               foreach ($chars as $char){
-                  if(! ctype_alpha($char)){
-                      $error .= "Error:  City must contain only letters.<br>";
+                if(! (ctype_alpha($char) || $char = " ")){
+                  $error .= "Error:  City must contain only letters.<br>";
                       break;
                   }
               }           
@@ -309,15 +312,22 @@
                   echo $error;
           }
           else{
-              $name = $_GET['name'];
-              $email = $_GET['email'];
-              $phone_num = $_GET['phone_num'];
-              $recipe_name = $_GET['recipe_name'];
-              $ingredients = $_GET['ingredients'];
-              $preparation = $_GET['preparation'];
+              $recipe = new Recipe();
+              $recipe->name = $_GET['name'];
+              $recipe->email = $_GET['email'];
+              $recipe->phone_num = $_GET['phone_num'];
+              $recipe->recipe_name = $_GET['recipe_name'];
+              $recipe->ingredients = $_GET['ingredients'];
+              $recipe->preparation = $_GET['preparation'];
 
-              echo $name.'<br>'.$email.'<br>'.$phone_num.'<br>'.$recipe_name.'<br>'.$ingredients.'<br>'.$preparation;
-              // enter to DB 
+              $error = $recipe->add_recipe();
+              if (!$error) {
+              echo '<script type="text/JavaScript"> 
+                      alert("Recipe has been added to the DataBase! Thank you for your help");
+                      </script>';
+              }
+              else
+                "<script>window.prompt('".$error."')</script>";
           }
         }
       ?>
@@ -366,5 +376,8 @@
         <a class="text-dark" style="text-decoration: none;">Lior &amp; Nir &amp; Tomer Design</a>
       </div>
     </footer>
+
+    <script></script>
+
   </body>
 </html>

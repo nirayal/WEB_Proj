@@ -1,5 +1,5 @@
 <?php
-require_once("includes\init.php");
+require_once("init.php");
 
 
 class Recipe
@@ -11,7 +11,6 @@ class Recipe
     private $ingredients;
     private $preparation;
    
-    public function Recipe()    {}
     function __toString(){ //for test to print the object
         return "Recipe: || by: ".$this->name." | ".$this->email." | ".$this->phone_num." ||<br> Recipe name: ".$this->recipe_name.".<br> Ingredients: ".$this->ingredients."<br> Preparation Process: ".$this->preparation." ||<br>";
     }

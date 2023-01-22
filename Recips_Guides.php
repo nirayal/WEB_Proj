@@ -323,7 +323,7 @@
               $error = $recipe->add_recipe();
               if (!$error) {
               echo '<script type="text/JavaScript"> 
-                      alert("Recipe has been added to the DataBase! Thank you for your help");
+                      alert("Recipe has been added to our list! Thank you for your help, We hope to publish tour recpie soon!");
                       </script>';
               }
               else

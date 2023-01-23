@@ -10,7 +10,7 @@
     <script src="main.js"></script>
     <link rel="icon" href="Pics/icon.png" type="image/icon_path">
 	</head>
-	<body onload="plusSlides(0)">
+	<body onload="showSlides(0)">
 		<header> 
       <div class="container-fluid">
         <div class="row">
@@ -69,9 +69,31 @@
         </div>
       </div>
 
+
+
+
+
+
+
+
+
       <div class="container-carousel-">
+        
+        <div class="container-arrows-">
+          <div class="row text-bg-light">
+            <span class="spanToRemoveBig">
+              <div class = "col-sm-1"></div>  
+              <div class="col-sm-10 text-center my-auto">
+                <table class="recipes_table">
+                  <tr><td><a id = "prev" class="prev" onclick="plusSlides(-1)">&#10094;</a></td><td>&#160&#160&#160&#160&#160</td><td><a id = "next" class="next" onclick="plusSlides(1)">&#10095;</a></td></tr>
+                </table>
+              <div class = "col-sm-1"></div>  
+            </span>
+          </div>
+        </div>
         <div class="row text-bg-light">
-          <div class="col-sm-1 text-center my-auto spanToRemoveSmall"><a id = "prev" class="prev" onclick="plusSlides(-1)">&#10094;</a></div>
+          <div class="col-sm-1 text-center my-auto">
+            <span class="spanToRemoveSmall"><a id = "prev" class="prev" onclick="plusSlides(-1)">&#10094;</a></span></div>
           <div class="col-sm-10 text-center">
             <div id="carouselContainer">
 
@@ -212,8 +234,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-1 text-center my-auto spanToRemoveSmall"><a id = "next" class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
+          <div class="col-sm-1 text-center my-auto">
+            <span class="spanToRemoveSmall"><a id = "next" class="next" onclick="plusSlides(1)">&#10095;</a></span></div>
         </div>
       </div>
     </main>

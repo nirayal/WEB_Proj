@@ -4,7 +4,7 @@
 		<title>Nana's Food - Lior nir & Tomer - HomeScreen</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">     
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>   
 		    <link rel="icon" href="Pics/icon.png" type="image/icon_path">
@@ -13,7 +13,7 @@
 		<header> 
       <div class="container-fluid">
         <div class="row">
-          <div class = "col-sm-1"></div>  
+          <div class = "col-sm-1"></div>
           <div class="col-sm-3 text-center m-auto">
             <!-- logo -->
             <a href="index.php" style="text-decoration: none;"><img id='logo' src="Pics/logo2.png" alt="logo"></a>
@@ -29,16 +29,16 @@
                     <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Recips_Guides.php">Recipes & Guides</a>
+                    <a class="nav-link" href="includes/Recips_Guides.php">Recipes & Guides</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Healthy_Food.htm">Healthy Food</a>
+                    <a class="nav-link" href="includes/Healthy_Food.htm">Healthy Food</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Workshops.htm">Workshops</a>
+                    <a class="nav-link" href="includes/Workshops.htm">Workshops</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Suggestion.html">Nana's suggestion</a>
+                    <a class="nav-link" href="includes/Suggestion.html">Nana's suggestion</a>
                   </li>
                 </ul>
               </div>
@@ -105,7 +105,7 @@
                 <p>From traditional to street food and mainstream dishes</p>
               </span>
               <p>ITS ALL HERE</p> 
-              <a href="Recips_Guides.php" class="btn btn-primary">Let's Go!</a>
+              <a href="includes/Recips_Guides.php" class="btn btn-primary">Let's Go!</a>
           </div>
           <div class = "col-sm-1"></div>  
         </div>
@@ -120,7 +120,7 @@
               <span class="spanToRemoveSmall">
                 <p>Its not all about the taste.</p>
                 <p>Health is very important so we take care of it!</p>
-                <a href="Healthy_Food.htm" class="btn btn-primary">Let's Go!</a>
+                <a href="includes/Healthy_Food.htm" class="btn btn-primary">Let's Go!</a>
               </span>
             </div>
             <div class="col-sm-5 text-center">
@@ -129,7 +129,7 @@
             <div class="col-sm-5 text-center my-auto" >
               <span class="spanToRemoveBig"> 
                 <p>Its not all about the taste.</p>
-                <a href="Healthy_Food.htm" class="btn btn-primary">Let's Go!</a>
+                <a href="includes/Healthy_Food.htm" class="btn btn-primary">Let's Go!</a>
               </span>
             </div>
             <div class = "col-sm-1"></div>  
@@ -154,7 +154,7 @@
                 <p>Pros | All family | Couples | Kids</p> </span>
               <span class="spanToRemoveBig">
                 <p>You can do it with us</p></span>
-              <a href="Workshops.htm" class="btn btn-primary">Let's Go!</a>
+              <a href="includes/Workshops.htm" class="btn btn-primary">Let's Go!</a>
           </div>
           <div class = "col-sm-1"></div>  
         </div>
@@ -169,7 +169,7 @@
             <span class="spanToRemoveSmall">
               <p>come check the finest ingredients that Nana uses only and only them</p>
               <p>All ingredients are in the finest quality</p>
-              <a href="Suggestion.html" class="btn btn-primary">Let's Go!</a></span>
+              <a href="includes/Suggestion.html" class="btn btn-primary">Let's Go!</a></span>
           </div>
           <div class="col-sm-5 text-center">
               <img class="image" src="Pics/main_ingredients_pic.JPG" class="rounded" alt="main_recipes_pic" ><br>
@@ -177,7 +177,7 @@
           <div class="col-sm-5 text-center my-auto" >
             <span class="spanToRemoveBig">
               <p>Ohh Nana worked hard for this part.</p>
-              <a href="Suggestion.html" class="btn btn-primary">Let's Go!</a>
+              <a href="includes/Suggestion.html" class="btn btn-primary">Let's Go!</a>
             </span>
           </div>
           <div class = "col-sm-1"></div>  
@@ -212,10 +212,10 @@
             <h5 class="text-uppercase">Things from Nana </h5>    
             <ul class="list-unstyled">
               <li> <a href="index.php" class="text-dark">Home</a> </li>
-              <li> <a href="Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
-              <li> <a href="Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
-              <li> <a href="Workshops.htm" class="text-dark">Workshops</a> </li>
-              <li> <a href="Suggestion.html" class="text-dark">Nana's suggestion</a> </li>
+              <li> <a href="includes/Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
+              <li> <a href="includes/Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
+              <li> <a href="includes/Workshops.htm" class="text-dark">Workshops</a> </li>
+              <li> <a href="includes/Suggestion.html" class="text-dark">Nana's suggestion</a> </li>
             </ul>
           </div>
 

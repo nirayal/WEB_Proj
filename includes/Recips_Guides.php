@@ -4,11 +4,11 @@
 		<title>Nana's Food - Recips&Guides</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">     
+        <link rel="stylesheet" type="text/css" href="../style.css">     
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>   
         <script> src="project.js"</script>
-		    <link rel="icon" href="Pics/icon.png" type="image/icon_path">
+		    <link rel="icon" href="../Pics/icon.png" type="image/icon_path">
 	</head>
 	<body>
     <header> 
@@ -17,7 +17,7 @@
           <div class = "col-sm-1"></div>  
             <div class="col-sm-3 text-center m-auto">
               <!-- logo -->
-              <a href="index.php" style="text-decoration: none;"><img id='logo' src="Pics/logo2.png" alt="logo"></a>
+              <a href="../index.php" style="text-decoration: none;"><img id='logo' src="../Pics/logo2.png" alt="logo"></a>
             </div>
             <navbar class="navbar navbar-expand-lg col-sm-8 fix-top">
               <div class="container-fluid">
@@ -26,7 +26,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
-                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.php">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../index.php">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Recips_Guides.php">Recipes & Guides</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Healthy_Food.htm">Healthy Food</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="Workshops.htm">Workshops</a> </li>
@@ -50,7 +50,7 @@
             </div>
           </span>
           <div class="col-sm-5 text-center">
-            <img class="image" src="Pics/Recipes/Home-food.jpg" class="rounded" alt="Home_Food"> <br>
+            <img class="image" src="../Pics/Recipes/Home-food.jpg" class="rounded" alt="Home_Food"> <br>
           </div>
           <div class="col-sm-5 text-center my-auto">
             <span class="spanToRemoveSmall">
@@ -88,7 +88,7 @@
             <h3 class="recipes">Far East Food</h3>
           </span>
           <div class="col-sm-5 text-center">
-            <img class="image" src="Pics/Recipes/Eastern_Food.jpg" class="rounded" alt="Far_East_Food"><br>
+            <img class="image" src="../Pics/Recipes/Eastern_Food.jpg" class="rounded" alt="Far_East_Food"><br>
           </div>
           <div class="col-sm-5 text-center my-auto" >
             <span class="spanToRemoveSmall">
@@ -125,7 +125,7 @@
             <h3 class="recipes">Salads</h3>
           </span>
           <div class="col-sm-5 text-center">
-            <img class="image" src="Pics/Recipes/salads.jpg" class="rounded" alt="Salads"><br>
+            <img class="image" src="../Pics/Recipes/salads.jpg" class="rounded" alt="Salads"><br>
           </div>
           <div class="col-sm-5 text-center my-auto" >
             <span class="spanToRemoveSmall">
@@ -162,7 +162,7 @@
             <h3 class="recipes">Desserts</h3>
           </span>
           <div class="col-sm-5 text-center">
-            <img class="image" src="Pics/Recipes/desserts.jpg" class="rounded" alt="Desserts"><br>
+            <img class="image" src="../Pics/Recipes/desserts.jpg" class="rounded" alt="Desserts"><br>
           </div>
           <div class="col-sm-5 text-center my-auto" >
             <span class="spanToRemoveSmall">
@@ -200,7 +200,7 @@
           <div class = "col-sm-1"></div>  
           <div class="col-sm-5 text-center">
             <span class="spanToRemoveSmall"> 
-              <img class="image" src="Pics/Recipes/recpie_book3.jpg" class="rounded" alt="Salads"><br>            
+              <img class="image" src="../Pics/Recipes/recpie_book3.jpg" class="rounded" alt="Salads"><br>            
             </span>
           </div>
           <div class="col-sm-5 text-center my-auto" >
@@ -340,7 +340,7 @@
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">Things from Nana </h5>    
             <ul class="list-unstyled">
-              <li> <a href="index.php" class="text-dark">Home</a> </li>
+              <li> <a href="../index.php" class="text-dark">Home</a> </li>
               <li> <a href="Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
               <li> <a href="Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
               <li> <a href="Workshops.htm" class="text-dark">Workshops</a> </li>

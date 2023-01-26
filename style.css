@@ -1,7 +1,7 @@
 header{
     background-color: #ffefcd;
 }
-/*change image classes*/
+
 img {
     width: 100%;
 }
@@ -88,8 +88,6 @@ body {
     width: 50%;
 }
 
-
-
 /* lior changes healfy food */
 
 .welcome-aria{
@@ -163,12 +161,12 @@ body {
     width: 296px;
     /* border-radius: 0px 0px 13px 13px; */
   }
-  .menu{
+.menu{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .menu-btn{
+.menu-btn{
     width: 100%;
     border: 2px solid ;
     color: #75c965;
@@ -178,7 +176,7 @@ body {
     border-radius: 13px 13px 0 0;
 
   }
-  .menu-close-btn{
+.menu-close-btn{
     border: 2px solid ;
     color: #808080;
     text-align: center;
@@ -191,18 +189,17 @@ body {
     width: 100%;
   }
 
-  #panel{
+#panel2{width: 100%;}
+
+
+#panel{
     padding: 5px;
     text-align: center;
     border: solid 2px #c3c3c3;
     width: 100%;
-    /* border-radius: 0 0 13px 13px; */
-  }
-  
-  #panel {
     display: none;
   }
-
+  
   /* ipads */
 @media(max-width: 1320px){
 

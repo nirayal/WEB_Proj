@@ -4,22 +4,12 @@
     <title>Nana's Food - Healthy Food</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="style.css">     
+      <link rel="stylesheet" type="text/css" href="../style.css">     
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>   
-      <link rel="icon" href="Pics/icon.png" type="image/icon_path">
-      <script>
-      $(document).ready(function(){
-        $("#flip").click(function(){
-          $("#panel").slideDown("slow");
-        });
-        $("#flip1").click(function(){
-            $("#panel").slideUp("slow");
-        });
-      });
-      </script>
-      </script>
+      <link rel="icon" href="../Pics/icon.png" type="image/icon_path">
+      <script src="../JS/Healthy_Food_JS.js"></script>
   </head>
     <body>
       <header> 
@@ -28,7 +18,7 @@
             <div class = "col-sm-1"></div>  
               <div class="col-sm-3 text-center m-auto">
                 <!-- logo -->
-                <a href="index.php" style="text-decoration: none;"><img id='logo' src="Pics/logo2.png" alt="logo"></a>
+                <a href="../index.php" style="text-decoration: none;"><img id='logo' src="../Pics/logo2.png" alt="logo"></a>
               </div>
               <navbar class="navbar navbar-expand-lg col-sm-8 fix-top">
                 <div class="container-fluid">
@@ -37,7 +27,7 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
-                      <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.php">Home</a> </li>
+                      <li class="nav-item"> <a class="nav-link active" aria-current="page" href="../index.php">Home</a> </li>
                       <li class="nav-item"> <a class="nav-link" href="Recips_Guides.php">Recipes & Guides</a> </li>
                       <li class="nav-item"> <a class="nav-link" href="Healthy_Food.htm">Healthy Food</a> </li>
                       <li class="nav-item"> <a class="nav-link" href="Workshops.htm">Workshops</a> </li>
@@ -51,9 +41,6 @@
       </header>
       <main>
         <div class="continer-fluid">
-          <!-- <div class="row banner">
-            <img src="Pics/healthy_food/image2copy.jpg" alt="">
-          </div> -->
           <div class="row welcome-aria">
             <div class="col align-self-top text-left text-in-welcome">
               <H2>Nana want's you to stay healthy.</H2>
@@ -72,10 +59,10 @@
               <br>
               <div class="row row-spamp">
                 <div class="col-6">
-                  <img class="healthfy-food-stamp" src="Pics/healthy_food/healthfy-food-stamp.png">
+                  <img class="healthfy-food-stamp" src="../Pics/healthy_food/healthfy-food-stamp.png">
                 </div>
                 <div class="col-6">
-                  <img class="healthfy-food-stamp" src="Pics/healthy_food/fresh&healthy_stamp.png">
+                  <img class="healthfy-food-stamp" src="../Pics/healthy_food/fresh&healthy_stamp.png">
                 </div>
               </div>
               <div class="row">
@@ -84,15 +71,15 @@
               <h3 class="sig-text">Nana's Signture Of Quality: </H3>
                 </div>
                 <div class="col-6">
-                  <img class="healthfy-food-stamp" src="Pics/healthy_food/sig copy.png">
+                  <img class="healthfy-food-stamp" src="../Pics/healthy_food/sig copy.png">
                 </div>
               </div>
             </div>
               <div class="col menu">
-                <img src="Pics/healthy_food/image1copy.png" alt="">
+                <img src="../Pics/healthy_food/image1copy.png" alt="">
                 <button class="menu-btn" id="flip">See what's in this plate</button>
                 <div id="panel">
-                    <table style="width:100%">
+                    <table id = "panel2">
                     <tr>
                       <th>Dietary fiber</th>
                       <th>Protein</th>
@@ -131,28 +118,28 @@
         </div>
         <div class="flexbox-continer">
           <div class="flexbox-item flexbox-item1">
-            <img class="product-image" src="Pics/healthy_food/water.jpg">
+            <img class="product-image" src="../Pics/healthy_food/water.jpg">
             <div class="product-info">
               <h3>water</h3>
               <p>Drink 2L a day will make your water balance at 1:1 ratio</p>
             </div>
           </div>
           <div class="flexbox-item flexbox-item1">
-            <img class="product-image" src="Pics/healthy_food/Nuts_and_dried_fruits.jpg">
+            <img class="product-image" src="../Pics/healthy_food/Nuts_and_dried_fruits.jpg">
             <div class="product-info">
               <h3>Nuts and dried fruits</h3>
               <p>Eatig 100g of nuts a day will give energy and nutrition</p> 
             </div>
           </div>
           <div class="flexbox-item flexbox-item1">
-            <img class="product-image" src="Pics/healthy_food/Legumes_and_grains.jpg">
+            <img class="product-image" src="../Pics/healthy_food/Legumes_and_grains.jpg">
             <div class="product-info">
               <h3>Legumes and grains</h3>
               <p>grains help you digest fester and they are full with protine</p>
             </div>
           </div>
           <div class="flexbox-item flexbox-item1">
-            <img class="product-image" src="Pics/healthy_food/poppy_seeds.jpg" style="margin: auto;">
+            <img class="product-image" src="../Pics/healthy_food/poppy_seeds.jpg" style="margin: auto;">
             <div class="product-info">
               <h3>Live seeds and crackers</h3>
               <p>seeds has lots of protin to the spasific whight and helps you digest faster</p>
@@ -166,28 +153,28 @@
           </div>
           <div class="flexbox-continer">
             <div class="flexbox-item flexbox-item1">
-              <img class="product-image" src="Pics/healthy_food/Broiling.jfif">
+              <img class="product-image" src="../Pics/healthy_food/Broiling.jfif">
               <div class="product-info">
                 <h3>Broiling</h3>
                 <p>Direct heat. Food placed in a special broiling pan in your oven's broiler is subjected to 550-degree heat</p>
               </div>
             </div>
             <div class="flexbox-item flexbox-item1">
-              <img class="product-image" src="Pics/healthy_food/Pressure cooking.jfif">
+              <img class="product-image" src="../Pics/healthy_food/Pressure cooking.jfif">
               <div class="product-info">
                 <h3>Pressure cooking</h3>
                 <p>Pressure cooking is a method of cooking in which the boiling temperature of water is increased using a special vessel</p> 
               </div>
             </div>
             <div class="flexbox-item flexbox-item1">
-              <img class="product-image" src="Pics/healthy_food/Poaching.jfif">
+              <img class="product-image" src="../Pics/healthy_food/Poaching.jfif">
               <div class="product-info">
                 <h3>Poaching</h3>
                 <p>moist-heat cooking method that involves submerging food in liquid, typically without using fat</p>
               </div>
             </div>
             <div class="flexbox-item flexbox-item1">
-              <img class="product-image" src="Pics/healthy_food/Roasting.jfif" style="margin: auto;">
+              <img class="product-image" src="../Pics/healthy_food/Roasting.jfif" style="margin: auto;">
               <div class="product-info">
                 <h3>Roasting</h3>
                 <p>Roasting is a cooking method that uses dry heat where hot air covers the food. temperatures of at least 150 °C</p>
@@ -203,7 +190,7 @@
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
               <h5 class="text-uppercase">Things from Nana </h5>    
               <ul class="list-unstyled">
-                <li> <a href="index.php" class="text-dark">Home</a> </li>
+                <li> <a href="../index.php" class="text-dark">Home</a> </li>
                 <li> <a href="Recips_Guides.php" class="text-dark">Recepis & Guides</a> </li>
                 <li> <a href="Healthy_Food.htm" class="text-dark">Healthy Food</a> </li>
                 <li> <a href="Workshops.htm" class="text-dark">Workshops</a> </li>

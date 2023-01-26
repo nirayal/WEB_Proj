@@ -275,7 +275,7 @@
     
      <!-- php section -->
      <?php
-      include("includes/init.php");
+      include("init.php");
       $error = null;
       if ($_GET)
       {
